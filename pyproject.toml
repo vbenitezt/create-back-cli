@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "create-back-cli"
+version = "0.1.0"
+description = "CLI para generar proyectos backend basados en xrrhh_back"
+authors = ["Victor Benitez"]
+readme = "README.md"
+packages = [{ include = "create_back_cli" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.0.0"
+rich = "^13.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[tool.poetry.scripts]
+create-back = "create_back_cli.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

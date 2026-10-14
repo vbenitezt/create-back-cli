@@ -1,0 +1,20 @@
+.venv/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+
+# Proyectos generados localmente por el CLI
+presupuesto_back/
+subchec2dk/
+subcheck_back/
+test1/
+test2/
+test3/
+test4/
+test5/
+xlce/
+xlce_back/
+xschool/
